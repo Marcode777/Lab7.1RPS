@@ -6,17 +6,27 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="row">
-    <div class="col-md-4">UserScore</div><span id="userScore">0</span>
-    <br/> 
-    <button class="btn btn-block" data-tag="userScore">Increment User Score</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset6" id="myChoice" >
+
+
+      </div>
+    </div>
   </div>
-    <div class="col-md-4">computerScore</div><span id="computerScore">0</span>
-    <br/>
-    <button class="btn btn-block" data-tag="computerScore">Increment Computer Score</button>
-  </div>
-    <div class="col-md-4">roundCount</div><span id="roundCount">0</span>
-    <button class="btn btn-block" data-tag="roundCount">Increment Round Count</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <button type="button" class="btn btn-info startBtn">Start</button>
+        <h2 id="compChoice">Yeah!</h2>
+      </div>
+    </div>
+      <div class="col-md-6">
+        <button type="button" class="btn btn-danger gameBtn" id="0">ROCK</button>
+        <button type="button" class="btn btn-primary gameBtn" id="1">PAPER</button>
+        <button type="button" class="btn btn-success gameBtn" id="2">SCISSORS</button>
+      </div>
+    </div>
   </div>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
