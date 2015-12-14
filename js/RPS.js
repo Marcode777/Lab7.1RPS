@@ -74,7 +74,7 @@ $(document).ready(function(){
       roundCount++;
       alert("compWins" + compWins)
     }
-    $("#Results").html("You chose " + myChoice + " computer chose " + compChoice + " Result; " + results);
+    $("#results").html("You chose:" + myChoice + "The computer chose:" + compChoice + "  The result: " + results);
   });
   });
 
