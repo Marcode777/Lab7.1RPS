@@ -24,6 +24,7 @@ $(document).ready(function(){
        ties++;
        roundCount++;
        alert('ties '+ ties);
+       $("#resultModal").modal('show').delay(3000);
 
     }
     if (myChoice == "rock" && compChoice == "paper"){
